@@ -10,7 +10,7 @@ export default (arg?: string): ToolSpec => {
     title: 'Find your federal tax bracket',
     fields: [
       yearField(a.year), statusField(a.status),
-      { id: 'income', label: 'Total income before deductions', def: a.income, unit: '$', max: 50_000_000, help: 'Wages, interest, business profit: line 9 of Form 1040' },
+      { id: 'income', label: 'Total income before deductions', def: a.income, unit: '$', max: 50_000_000, help: 'Form 1040 line 9' },
       { id: 'std', label: 'Take the standard deduction?', def: 1, options: [{ value: '1', label: 'Yes, standard deduction' }, { value: '0', label: 'No, income is already taxable' }] },
     ],
     run: (v) => {

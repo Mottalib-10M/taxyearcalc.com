@@ -6,8 +6,8 @@ export default (): ToolSpec => ({
   title: 'No tax on tips: your deduction and what it saves',
   fields: [
     yearField(2026), statusField('single', ['single', 'mfj', 'hoh', 'mfs']),
-    { id: 'tips', label: 'Qualified tips for the year', def: 18000, unit: '$', max: 10_000_000, help: 'W-2 box 7 or box 12 code TP, plus tips on Form 4137' },
-    { id: 'magi', label: 'Modified AGI (Form 1040 line 11b)', def: 52000, unit: '$', max: 50_000_000, help: 'AGI already includes the tips' },
+    { id: 'tips', label: 'Qualified tips for the year', def: 18000, unit: '$', max: 10_000_000, help: 'W-2 box 7 or code TP' },
+    { id: 'magi', label: 'Modified AGI (Form 1040 line 11b)', def: 52000, unit: '$', max: 50_000_000, help: 'Tips included' },
   ],
   run: (v) => {
     const y = yearOf(v.year); const st = statusOf(v.status);

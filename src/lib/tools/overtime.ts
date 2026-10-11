@@ -6,7 +6,7 @@ export default (): ToolSpec => ({
   title: 'No tax on overtime: your deduction',
   fields: [
     yearField(2026), statusField('single'),
-    { id: 'pay', label: 'Overtime pay you received', def: 12000, unit: '$', max: 10_000_000, help: 'The amount on your pay stubs, or the premium alone' },
+    { id: 'pay', label: 'Overtime pay you received', def: 12000, unit: '$', max: 10_000_000, help: 'From your pay stubs' },
     { id: 'kind', label: 'What that amount is', def: 1.5, options: [{ value: '1.5', label: 'Total pay at time and a half' }, { value: '2', label: 'Total pay at double time' }, { value: '0.5', label: 'Premium only (the "half")' }] },
     { id: 'magi', label: 'Modified AGI', def: 78000, unit: '$', max: 50_000_000 },
   ],

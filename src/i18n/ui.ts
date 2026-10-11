@@ -1,6 +1,6 @@
 import type { Locale } from './routes';
 const en = {
-  updatedOn: 'Figures checked on', editorialPolicy: 'Editorial policy', contactLabel: 'Contact', reviewedBy: 'Checked by',
+  updatedOn: 'Last updated', editorialPolicy: 'Editorial policy', contactLabel: 'Contact', reviewedBy: 'Checked by',
   skipToContent: 'Skip to content', mainNav: 'Main navigation', breadcrumbLabel: 'Breadcrumb', breadcrumbHome: 'Home', menuOpen: 'Open menu',
   faqTitle: 'Questions taxpayers ask', relatedCalculators: 'Next numbers to check', sourcesTitle: 'IRS documents and statute behind this page', writtenBy: 'Published by',
   asOf: 'Federal tax figures for', lastUpdated: 'compared with IRS documents on', footerValidated: 'Sources: IRS revenue procedures, notices, forms and Public Law 119-21',

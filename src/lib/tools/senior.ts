@@ -8,7 +8,7 @@ export default (): ToolSpec => ({
     yearField(2026),
     { id: 'status', label: 'Filing status', def: 0, options: [{ value: '0', label: 'Single or head of household' }, { value: '1', label: 'Married filing jointly' }] },
     { id: 'people', label: 'People aged 65 or older on December 31', def: 1, options: [{ value: '1', label: 'One' }, { value: '2', label: 'Two (joint return)' }] },
-    { id: 'magi', label: 'Modified AGI', def: 92000, unit: '$', max: 50_000_000, help: 'Taxable Social Security counts; tax-free Social Security does not' },
+    { id: 'magi', label: 'Modified AGI', def: 92000, unit: '$', max: 50_000_000, help: 'Includes taxable Social Security' },
   ],
   run: (v) => {
     const y = yearOf(v.year); const st = v.status === 1 ? 'mfj' : 'single';

@@ -269,8 +269,8 @@ describe('whole return', () => {
     expect(r.refund).toBeCloseTo(6000 - 5020, 6);
   });
   it('tips reduce taxable income below the line, not AGI', () => {
-    const r = fullReturn({ year: 2025, status: 'single', wages: 30000, otherIncome: 0, adjustments: 0, itemized: 0, age65: 0, kids: 0, tips: 18000, overtimePremium: 0, withholding: 0 });
-    expect(r.agi).toBe(30000); expect(r.tips).toBe(18000); expect(r.taxable).toBe(0);
+    const r = fullReturn({ year: 2025, status: 'single', wages: 48000, otherIncome: 0, adjustments: 0, itemized: 0, age65: 0, kids: 0, tips: 18000, overtimePremium: 0, withholding: 0 });
+    expect(r.agi).toBe(48000); expect(r.tips).toBe(18000); expect(r.taxable).toBe(48000 - 15750 - 18000);
   });
 });
 

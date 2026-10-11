@@ -6,7 +6,7 @@ export default (): ToolSpec => ({
   title: 'Alternative minimum tax check',
   fields: [
     yearField(2026), statusField('mfj'),
-    { id: 'amti', label: 'Alternative minimum taxable income', def: 650000, unit: '$', max: 1_000_000_000, help: 'Taxable income + SALT deducted + ISO bargain element and other add-backs' },
+    { id: 'amti', label: 'Alternative minimum taxable income', def: 650000, unit: '$', max: 1_000_000_000, help: 'Taxable income plus AMT add-backs' },
     { id: 'regular', label: 'Regular income tax', def: 140000, unit: '$', max: 1_000_000_000 },
   ],
   run: (v) => {

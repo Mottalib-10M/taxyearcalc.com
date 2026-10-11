@@ -36,12 +36,13 @@ export default function Calc({ kind, arg, size = 'full', methodHref, href, idPre
   const copy = async (what: 'result' | 'link') => {
     try { await navigator.clipboard.writeText(what === 'result' ? text() : window.location.href); setCopied(what); setTimeout(() => setCopied(''), 1800); } catch { /* clipboard refused: nothing to do */ }
   };
+  const wide = spec.fields.length > 4;
   if (size === 'mini') {
     return (
       <div data-chrome data-mini={kind} className="not-prose my-8 border-l-4 border-accent-600 bg-white py-4 pl-4 pr-2 sm:pl-5">
         <p className="font-serif text-lg font-semibold text-navy-900">{spec.title}</p>
-        <div className="mt-3 grid gap-5 sm:grid-cols-2">
-          <form className="grid grid-cols-1 content-start self-start gap-x-4 gap-y-3" onSubmit={(e) => e.preventDefault()}>{fields}</form>
+        <div className={`mt-3 grid gap-5 ${wide ? '' : 'sm:grid-cols-2'}`}>
+          <form className={`grid grid-cols-1 content-start self-start gap-x-4 gap-y-3 ${wide ? 'sm:grid-cols-2 lg:grid-cols-3' : ''}`} onSubmit={(e) => e.preventDefault()}>{fields}</form>
           <div aria-live="polite" className="bg-accent-50 p-4">
             <p className="text-sm font-medium text-navy-700">{out.head[0]}</p>
             <p className="tabular-nums mt-1 text-3xl font-bold text-navy-900">{out.head[1]}</p>

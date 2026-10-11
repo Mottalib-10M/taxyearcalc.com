@@ -317,6 +317,7 @@ export function estimatedTax(thisYearTax: number, priorYearTax: number, priorAgi
 }
 
 /* ---------------------------------------------------------------- whole return */
+/** `tips` and `overtimePremium` are the qualified amounts already included in `wages` (Form W-2 box 1). */
 export interface ReturnInput {
   year: Year; status: Status; wages: number; otherIncome: number; adjustments: number;
   itemized: number; age65: number; blind?: number; kids: number; tips: number; overtimePremium: number;
@@ -337,8 +338,8 @@ export function fullReturn(i: ReturnInput) {
   const ordTax = incomeTax(i.year, i.status, ordinary);
   const cg = capitalGainsTax(i.year, i.status, ordinary, gains);
   const taxBefore = ordTax.tax + cg.tax;
-  const ctc = childTaxCredit(i.year, i.status, i.kids, agi, taxBefore, i.wages + i.tips, i.otherDependents ?? 0);
-  const e = i.status === 'mfs' ? { credit: 0 } : eitc(i.year, i.kids, i.wages + i.tips, agi, i.status === 'mfj');
+  const ctc = childTaxCredit(i.year, i.status, i.kids, agi, taxBefore, i.wages, i.otherDependents ?? 0);
+  const e = i.status === 'mfs' ? { credit: 0 } : eitc(i.year, i.kids, i.wages, agi, i.status === 'mfj');
   const taxAfter = pos(taxBefore - ctc.nonrefundable);
   const refundable = ctc.refundable + e.credit;
   const balance = i.withholding + refundable - taxAfter;

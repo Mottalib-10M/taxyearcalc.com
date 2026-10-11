@@ -6,9 +6,9 @@ export default (): ToolSpec => ({
   title: 'Tax on your long-term capital gains',
   fields: [
     yearField(2026), statusField('single'),
-    { id: 'ordinary', label: 'Taxable income without the gains', def: 40000, unit: '$', max: 100_000_000, help: 'After the standard or itemized deduction' },
+    { id: 'ordinary', label: 'Taxable income without the gains', def: 40000, unit: '$', max: 100_000_000, help: 'After deductions' },
     { id: 'gains', label: 'Long-term gains and qualified dividends', def: 30000, unit: '$', max: 100_000_000 },
-    { id: 'std', label: 'Standard deduction already subtracted', def: 16100, unit: '$', max: 1_000_000, help: 'Used to rebuild MAGI for the 3.8% tax' },
+    { id: 'std', label: 'Standard deduction already subtracted', def: 16100, unit: '$', max: 1_000_000, help: 'For the 3.8% NIIT' },
   ],
   run: (v) => {
     const y = yearOf(v.year); const st = statusOf(v.status);
