@@ -1,6 +1,6 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-tax-year.example";
-export const SITE_NAMES: Record<string, string> = {"en": "Tax Year Numbers"};
+export const SITE_URL = "https://taxyearcalc.com";
+export const SITE_NAMES: Record<string, string> = {"en": "Tax Year Calc"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
 export const LOCALE_TAG = 'en-US';
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners turns 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Federal income tax brackets", "Standard deduction", "Schedule 1-A deductions (tips, overtime, car loan interest, seniors)", "SALT deduction cap", "Child tax credit and earned income credit", "401(k), IRA and HSA contribution limits", "Capital gains tax rates", "Estimated tax and filing deadlines", "IRS refund timing"]};
-export const CONTACT_EMAIL = "contact@us-tax-year.example";
+export const CONTACT_EMAIL = "contact@taxyearcalc.com";
 export const THEME_COLOR = '#B22234';
 export const LOGO_SYMBOL = '1040';
 export const BING_VERIFY_CODE = '';

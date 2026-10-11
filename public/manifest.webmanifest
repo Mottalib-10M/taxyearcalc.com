@@ -1,6 +1,6 @@
 {
- "name": "Tax Year Numbers",
- "short_name": "Tax Year Numbers",
+ "name": "Tax Year Calc",
+ "short_name": "Tax Year Calc",
  "description": "Every number of the 2026 and 2025 federal tax years in a calculator: brackets, standard deduction, no tax on tips and overtime, SALT, credits, limits, refunds.",
  "start_url": "/en/",
  "display": "standalone",

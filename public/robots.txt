@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-tax-year.example/sitemap-index.xml
+Sitemap: https://taxyearcalc.com/sitemap-index.xml

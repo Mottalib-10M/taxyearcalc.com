@@ -1,4 +1,4 @@
-# Écrire ou étoffer une page de « Tax Year Numbers » (us-tax-year)
+# Écrire ou étoffer une page de « Tax Year Calc » (taxyearcalc.com)
 
 Notice pour les agents qui écrivent une page. À lire en entier avant d'écrire, avec
 `~/Documents/GitHub/RECETTE-SITE.md` (§0, §6, §6.5, §7, §9, §9.3, §11, §17.4, §21, §26).
@@ -96,7 +96,7 @@ title: `No Tax on Tips 2026: Deduct Up to ${usd(Y(2026).tips.max)}, Phase-Out`,
 ## Contrôles
 
 ```bash
-cd ~/Documents/GitHub/a-publier/Mottalib-10M/us-tax-year
+cd ~/Documents/GitHub/a-publier/Mottalib-10M/taxyearcalc.com
 ALLOW_PLANNED=1 PAGE_FILES=standard-deduction,no-tax-on-tips npx vitest run tests/pages.test.ts   # vos pages
 npx vitest run                     # moteur, calculateurs, pages
 npm run build                      # inclut typo-nbsp et check-snippets (bloquant)
