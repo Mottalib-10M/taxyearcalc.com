@@ -24,7 +24,7 @@ export const HOME = {
   sections: (h: Helpers) => ({
     ledger: [
       ['10% bracket ends (single / joint)', `${b(2025, 'single', 0)} / ${b(2025, 'mfj', 0)}`, `${b(2026, 'single', 0)} / ${b(2026, 'mfj', 0)}`, h.a('tax-brackets', 'brackets')],
-      ['37% bracket starts (single / joint)', `${b(2025, 'single', 5)} / ${b(2025, 'mfj', 5)}`, `${b(2026, 'single', 5)} / ${b(2026, 'mfj', 5)}`, h.a('brackets-2025', '2025 table')],
+      ['37% bracket starts (single / joint)', `${b(2025, 'single', 5)} / ${b(2025, 'mfj', 5)}`, `${b(2026, 'single', 5)} / ${b(2026, 'mfj', 5)}`, h.a('prior-year-tax-brackets', '2025 table')],
       ['Standard deduction (single / joint)', `${usd(y5.standard.single)} / ${usd(y5.standard.mfj)}`, `${usd(y6.standard.single)} / ${usd(y6.standard.mfj)}`, h.a('standard-deduction', 'standard deduction')],
       ['Senior deduction per person 65+', usd(y5.senior.amount), usd(y6.senior.amount), h.a('senior-deduction', 'senior deduction')],
       ['No tax on tips, maximum', usd(y5.tips.max), usd(y6.tips.max), h.a('no-tax-on-tips', 'tips')],

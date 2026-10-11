@@ -46,7 +46,7 @@ describe('pages', () => {
         else expect(p.mini && TOOLS[p.mini]).toBeTruthy();
         expect(p.sources.length).toBeGreaterThanOrEqual(2);
         for (const s of p.sources) expect(SOURCES[s], s).toBeTruthy();
-        for (const m of body.matchAll(/<!--mini:([A-Za-z0-9_-]+)/g)) expect(TOOLS[m[1]], m[1]).toBeTruthy();
+        for (const m of body.matchAll(/<!--mini:([A-Za-z0-9_]+)/g)) expect(TOOLS[m[1]], m[1]).toBeTruthy();
         expect(p.related.length).toBeGreaterThanOrEqual(3);
       });
     });

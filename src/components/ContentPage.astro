@@ -22,7 +22,7 @@ const lang = 'en';
 const ui = t(lang);
 const path = route(page.id, lang);
 const g = groupInfo(page.group);
-const parts = page.body(helpers()).split(/<!--mini:([A-Za-z0-9_-]+)(?:\|([A-Za-z0-9+/=]+))?-->/);
+const parts = page.body(helpers()).split(/<!--mini:([A-Za-z0-9_]+)(?:\|([A-Za-z0-9+/=]+))?-->/);
 const decode = (b?: string) => (b ? Buffer.from(b, 'base64').toString('utf8') : undefined);
 const jsonLd = [articleSchema({ title: page.h1, description: page.description, path, lang }), webPageSchema({ name: page.h1, description: page.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: page.nav, path }])];
 if (page.tool) jsonLd.push(webApplicationSchema({ name: page.h1, description: page.description, path, lang }));

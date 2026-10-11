@@ -6,7 +6,7 @@
 export interface Planned { id: string; group: string; kind: 'tool' | 'guide'; tool: string; query: string }
 export const PLANNED_PAGES: Planned[] = [
   { id: 'tax-brackets', group: 'rates', kind: 'tool', tool: 'brackets', query: 'tax brackets 2026 (100k-1M), federal tax brackets 2026' },
-  { id: 'brackets-2025', group: 'rates', kind: 'tool', tool: 'brackets', query: 'federal tax brackets 2025 (return filed in 2026)' },
+  { id: 'prior-year-tax-brackets', group: 'rates', kind: 'tool', tool: 'brackets', query: 'federal tax brackets 2025 (return filed in 2026)' },
   { id: 'single-tax-brackets', group: 'rates', kind: 'tool', tool: 'brackets', query: 'tax brackets 2026 single' },
   { id: 'married-filing-jointly-brackets', group: 'rates', kind: 'tool', tool: 'brackets', query: 'tax brackets 2026 married filing jointly' },
   { id: 'head-of-household-brackets', group: 'rates', kind: 'tool', tool: 'brackets', query: 'tax brackets 2026 head of household' },
