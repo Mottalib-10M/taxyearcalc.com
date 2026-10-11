@@ -15,7 +15,7 @@ export default (): ToolSpec => ({
     const g = giftTax(y, Array.from({ length: Math.max(0, Math.round(v.people)) }, () => v.gift), v.split === 1);
     return {
       head: ['Taxable gifts this year', usd(g.taxable)],
-      sub: g.taxable > 0 || v.split === 1 ? 'Form 709 is due by the April filing deadline' : 'No gift tax return needed',
+      sub: g.taxable > 0 || v.split === 1 ? 'A Form 709 gift tax return is required' : 'No gift tax return needed',
       rows: [
         { label: v.split ? 'Exclusion per person, split' : 'Exclusion per person', value: usd(g.exclusion) },
         { label: 'Lifetime exemption left after these gifts', value: usd(g.exemptionLeft) },

@@ -1,0 +1,45 @@
+ 
+ If you meet certain requirements, you may qualify for the foreign earned income exclusion, the foreign housing exclusion , and/or the foreign housing deduction . To claim these benefits, you must have foreign earned income , your tax home must be in a foreign country , and you must be one of the following:
+ A U.S. citizen who is a bona fide resident of a foreign country or countries for an uninterrupted period that includes an entire tax year,
+ A U.S. resident alien who is a citizen or national of a country with which the United States has an income tax treaty in effect and who is a bona fide resident of a foreign country or countries for an uninterrupted period that includes an entire tax year, or
+ A U.S. citizen or a U.S. resident alien who is physically present in a foreign country or countries for at least 330 full days during any period of 12 consecutive months.
+ You can use the IRS’s Interactive Tax Assistant tool to help determine whether income earned in a foreign country is eligible to be excluded from income reported on your U.S. federal income tax return.
+ If you are a U.S. citizen or a resident alien of the United States and you live abroad, you are taxed on your worldwide income. However, you may qualify to exclude your foreign earnings from income up to an amount that is adjusted annually for inflation ($107,600 for 2020, $108,700 for 2021, $112,000 for 2022, and $120,000 for 2023). In addition, you can exclude or deduct certain foreign housing amounts.
+ You may also be entitled to exclude from income the value of meals and lodging provided to you by your employer on their premises and for their convenience. However, such amounts are not foreign earned income. Refer to Exclusion of Meals and Lodging in Publication 54, Tax Guide for U.S. Citizens and Resident Aliens Abroad , and Publication 15-B, Employer's Tax Guide to Fringe Benefits for more information.
+ Other rules
+ Foreign-earned income: Foreign-earned income means wages, salaries, professional fees, or other amounts paid to you for personal services rendered by you. It does not include amounts received for personal services provided to a corporation that represent a distribution of earnings and profits rather than reasonable compensation.
+ Self-employment income: A qualifying individual may claim the foreign earned income exclusion on foreign earned self-employment income. The excluded amount will reduce your regular income tax but will not reduce your self-employment tax. Also, as a self-employed individual, you may be eligible to claim the foreign housing deduction instead of a foreign housing exclusion.
+ Not foreign earned income: Foreign earned income does not include the following amounts:
+ Pay received as a military or civilian employee of the U.S. government or any of its agencies
+ Pay for services conducted in international waters or airspace (not a foreign country)
+ Payments received after the end of the tax year following the year in which the services that earned the income were performed
+ Pay otherwise excludible from income, such as the value of meals and lodging furnished for the convenience of your employer on their premises (and, in the case of lodging, as a condition of employment)
+ Pension or annuity payments, including social security benefits
+ Foreign tax home: You may have a foreign tax home if your work is in a foreign country and you expect to be employed in the foreign country for an indefinite, rather than temporary, period of time. You do not have a foreign tax home if your abode remains in the United States (where you keep closer familial, economic, and personal ties) unless you work in a Presidentially-declared combat zone in support of the Armed Forces of the United States. For more information, see Tax Home in a Foreign Country .
+ Figuring the tax: If you qualify for and claim the foreign earned income exclusion, the foreign housing exclusion, or both, must figure the tax on your remaining non-excluded income using the tax rates that would have applied had you not claimed the exclusion(s). Use the Foreign Earned Income Tax Worksheet in the Form 1040 Instructions .
+ Foreign Earned Income 
+ Tax Home in a Foreign Country 
+ Bona Fide Resident Test 
+ Physical Presence Test 
+ Exceptions to Tests 
+ Figuring the Exclusion 
+ Choosing the Exclusion 
+ Revocation 
+ Foreign Housing Exclusion or Deduction 
+ Individual Retirement Arrangements 
+ Extension to Claim Foreign Earned Income Exclusion 
+ Foreign Earned Income Exclusion and the Pine Gap Facility FAQs 
+ Related
+ Form 2555, Foreign Earned Income 
+ Form 4868, Application for Automatic Extension of Time to File U.S. Individual Income Tax Return 
+ Form 2350, Application for Extension of Time to File U.S. Income Tax Return 
+ Publication 54, Tax Guide for U.S. Citizens and Resident Aliens Abroad 
+ Online tools and updates
+ International taxpayers' videos 
+ International taxpayers' news releases 
+ International taxpayers' interactive tools 
+ Individuals topics
+ Tools 
+ Taxpayer Advocate 
+ Affordable Care Act 
+ 

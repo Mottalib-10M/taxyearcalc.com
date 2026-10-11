@@ -20,7 +20,7 @@ export default (): ToolSpec => ({
         { label: 'Estate plus lifetime gifts', value: usd(v.estate + v.gifts) },
         { label: 'Amount above the exclusion', value: usd(e.over) },
       ],
-      note: 'Simplified: assumes no gift tax paid earlier and no state estate tax. A Form 706 is due within nine months of death when the gross estate exceeds the exclusion.',
+      note: 'Simplified: assumes no gift tax paid earlier and no state estate tax. A Form 706 is required when the gross estate exceeds the exclusion, and to pass unused exclusion to a spouse.',
     };
   },
 });
