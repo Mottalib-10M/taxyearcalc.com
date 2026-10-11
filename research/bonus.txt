@@ -1,0 +1,107 @@
+ 
+ The  Working Families Tax Cuts  significantly affect federal taxes, credits and deductions.
+ The following sections outline tax provisions for individuals and workers including available resources.
+ On this page
+ Passenger vehicle loan interest 
+ Paid Family and Medical Leave 
+ Depreciation 
+ Qualified Production Property 
+ Exclusion for employer payments of student loans 
+ Third Party Network Transactions 
+ Employee Retention Credit 
+ Passenger vehicle loan interest transition relief for 2025 (Section 70203) 
+ Transition relief overview
+ IRS provides transitional relief for tax year 2025 for lenders and other recipients of qualified interest who must file information returns with the IRS and provide statements to borrowers showing the total amount of interest received on qualified passenger vehicle loans and other relevant information.
+ How the relief applies for 2025
+ Applies to reporting requirements for qualified passenger vehicle loans
+ Lenders and other payors should refer to Notice 2025-57 and other related guidance to determine how the 2025 reporting rules apply
+ Related resources
+ Notice 2025-57, Transitional Guidance Regarding Returns Relating to Certain Interest on Specified Passenger Vehicle Loans Received in a Trade or Business PDF 
+ Transition relief for vehicle loan interest reporting (IR-2025-105) 
+ Permanent Expansion of the Paid Family and Medical Leave Tax Credit (Section 70304) 
+ Overview of expansion
+ The Working Families Tax Cuts permanently expands the employer tax credit for paid family and medical leave, providing businesses, particularly small businesses, with greater incentives to offer up to 12 weeks of paid leave.
+ The WFTC also makes several key improvements to the credit, including:
+ Expanded Eligibility: Credit for employees with six months of service and for part-time employees customarily working 20 hours or more per week. 
+ Expanded Coverage: Credit for insurance premiums to provide leave, or wages paid during leave. 
+ State and Local Mandates: Count leave provided under state or local mandates toward the eligibility for this federal tax credit, but not toward the credit calculation.
+ Related resources
+ Guidance on the Permanent Expansion of Paid Family and Medical Leave (IR-2026-86) 
+ Notice 2026-28 PDF , providing guidance on the employer credit for paid family and medical leave under the Working Families Tax Cuts 
+ Depreciation (Sections 70301, 70306, 70434) 
+ Overview of changes
+ Section 70301 – Full Expensing of Certain Business Property
+ Provides taxpayers with a permanent 100-percent additional first year depreciation deduction for qualified property acquired after January 19, 2025, and specified plants planted or grafted after January 19, 2025.
+ Provides that taxpayers may elect, for the first tax year ending after January 19, 2025, to deduct 40-percent additional first year depreciation (or 60-percent additional first year depreciation for long production period property and certain aircraft) for this qualified property or specific plants, instead of deducting 100-percent additional first year depreciation.
+ Makes permanent the rule that, solely for purposes of determining the percentage of completion under IRC section 460(b)(1)(A), the cost of qualified property with a IRC section 168 recovery period of 7 years or less is taken into account as a cost allocated to the contract as if additional first year depreciation of IRC section 168(k) had not been enacted.
+ Section 70306 – Increased Dollar Limitation for expensing of certain depreciable business property
+ Increased the total amount a Taxpayer can elect to expense under IRC § 179 from $1,000,000 to $2,500,000 for section 179 property placed in service in tax years beginning after December 31, 2024.
+ The $2,500,000 amount is reduced (but not below zero) by the amount by which the cost of section 179 property placed in service during the taxable year exceeds $4,000,000.
+ All amounts are indexed for inflation annually for taxable years beginning after 2025.
+ Section 70434 – Treatment of certain qualified sound recording productions
+ For productions commencing before January 1, 2026, in tax years ending after July 4, 2025, expands the special expensing rules for qualified film, television, and live theatrical productions under IRC section 181 to include aggregate qualified sound recording production cost up to $150,000 per tax year. 
+ A qualified sound recording production is a sound recording as defined in 17 U.S.C. section 101 that is produced and recorded in the United States. 
+ For productions commencing in tax years ending July 4, 2025, expands the definition of qualified property eligible for additional first year depreciation under IRC section 168(k) to include qualified sound recording productions, without regard to the $150,000 expensing limit or the termination date in IRC § 181. 
+ Related resources
+ IRC section 168(k) - Special allowance for certain property
+ IRC section 179 - Election to expense certain depreciable business assets
+ IRC section 181 - Deduction for Qualified Film, Television and Live Entertainment
+ Publication 946  - How To Depreciate Property
+ Notice 2026-11 PDF  - Interim Guidance on Additional First-Year Depreciation Deduction under § 168(k)
+ Qualified Production Property (Section 70307) 
+ Overview of changes
+ Qualified Production Property deduction allows businesses to write off the cost of certain property more quickly.
+ Deduction percentage
+ For most qualifying business property bought and put into use after Jan. 19, 2025, businesses can now deduct 100 percent of the cost in the first year. This means they do not have to spread the deduction over several years.
+ Who this helps
+ This change mainly helps businesses that buy things like:
+ Equipment and machinery
+ Certain plants
+ Other qualifying business property
+ Current guidance
+ Until official regulations are issued, taxpayers may follow existing depreciation rules with updated dates and percentages based on this new law.
+ Related resources
+ Guidance on the additional first year depreciation deduction amended as part of the One, Big, Beautiful Bill (IR-2026-06) 
+ Interim Guidance on Additional First Year Depreciation Deduction under § 168(k) (Notice 2026-11) PDF 
+ Exclusion for employer payments of student loans (Section 70412) 
+ Overview of the exclusion for employer payments of student loans
+ The Working Families Tax Cuts permanently allows employers to help employees repay qualified student loans through educational assistance programs on a tax-free basis. 
+ For 2026, employees may exclude up to $5,250 in total employer-provided educational assistance, including qualifying student loan payments, and the limit will be adjusted for inflation beginning after 2026.
+ The $5,250 is a combined limit covering student loan payments and other qualifying educational assistance—not a separate $5,250 student-loan benefit. For example, if an employer pays $3,000 toward an employee's qualified student loan, generally only another $2,250 of other Section 127 educational assistance can be excluded that year. 
+ The employer may make qualifying payments directly to the student-loan lender or to the employee, and the benefit can cover both principal and interest on a qualified education loan incurred for the employee's own education. The benefit generally must be provided through a qualifying written Section 127 educational assistance program. 
+ Related resources
+ Updates to frequently asked questions about educational assistance programs 
+ Third Party Network Transactions (Section 70432) 
+ Overview of changes to Third Party Network Transactions
+ Proposed regulations were published to explain when backup withholding applies to certain payments made through third-party payment platforms.
+ Definition
+ Backup withholding is a tax that may be withheld from a payment when certain reporting rules apply.
+ Who this affects
+ Third-party settlement organizations, such as payment apps and online platforms that process payments for sellers and service providers
+ Sellers and payees who receive payments through these platforms
+ Key change to the threshold
+ Under the updated law, backup withholding generally applies only when both of the following are true in a calendar year:
+ The total payments to a person are more than $20,000, and
+ The total number of transactions is more than 200
+ This replaces the lower $600 threshold that had been scheduled under prior law.
+ What this means for sellers
+ If you receive payments through a third-party platform and do not exceed both limits, your payments generally will not trigger backup withholding under these proposed rules.
+ This change may reduce withholding for individuals and small businesses with lower payment volumes.
+ What this means for payment platforms
+ Third-party platforms must:
+ Track both the number of transactions and the total dollar amount paid to each payee
+ Apply backup withholding only after both thresholds are exceeded
+ Call for comments
+ The IRS is accepting public comments through  regulations.gov  before issuing final regulations.
+ Related resources
+ Filing tips and updates for gig economy workers (Tax Tip 2026-26) 
+ What gig economy workers should know (FS-2026-07) 
+ Treasury, IRS issue proposed regulations reflecting changes from the One, Big, Beautiful Bill to the threshold for backup withholding on certain payments made through third parties (IR-2026-03) 
+ Form 1099-K FAQ updates (FS-2025-08) 
+ Employee Retention Credit (ERC) limitation (Section 70605) 
+ Overview of the limitation
+ The Working Families Tax Cuts limits credits and refunds for employee retention credits (ERC) claimed for the third and fourth quarters of 2021 that were filed after Jan. 31, 2024
+ IRS FAQs provide general information, including when a claim was timely filed and what appeal rights apply if an ERC claim is disallowed
+ Related resources
+ FAQs on Employee Retention Credit compliance (IR-2025-106) 
+ 

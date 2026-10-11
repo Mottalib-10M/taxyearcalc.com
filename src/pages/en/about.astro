@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, webPageSchema, organizationSchema } from '../../lib/seo';
+import { P, Y, usd, day } from '../../lib/kit';
+import { AUTHOR_NAME, SITE_NAMES } from '../../data/site-config';
+const lang = 'en';
+const title = 'Tax Year Numbers: Who Publishes the 2026 Calculators';
+const description = 'Who builds the 2026 federal tax calculators, why each IRS figure is placed in a tool instead of an article, how it is funded and how to report an error.';
+const path = route('about', lang);
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'About', description, path, lang }), organizationSchema(lang), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">About {SITE_NAMES[lang]}</h1>
+  <p class="mt-3 text-lg text-navy-700">An independent reference for the numbers of the federal tax year, published by {AUTHOR_NAME}.</p></header>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>Why the site exists</h2>
+    <p>Every autumn the IRS publishes a revenue procedure of some forty pages that resets the brackets, the standard deduction, the credits and dozens of limits for the coming year. In July 2025 a new law, Public Law 119-21, added four deductions with their own caps and phase-outs, rewrote the SALT cap and changed figures of a year already half over. The articles that rank first for these questions list the numbers; they rarely tell a reader where his own income lands, what the overtime deduction is worth after the phase-out and his bracket, or on which day a refund filed on a given date should arrive.</p>
+    <p>This site puts each figure of the year inside a calculator that answers that question, and it does better than the first search result on three points: the 2026 and 2025 figures side by side, an exact computation that follows the lines of the IRS forms, and a citation of the paragraph that sets each number. When official documents disagree, it says which one it follows and why.</p>
+    <h2>Who publishes it</h2>
+    <p>{AUTHOR_NAME} is a company that designs free calculators on public rules. It is not a tax preparer, a law firm or an affiliate of the IRS, and it does not sell returns, refund advances or software. The site has no advertising today and collects no personal data; if advertising is ever added, it will never sit above a calculator and this page will say so.</p>
+    <h2>How the figures are kept right</h2>
+    <p>Every amount was compared with its source on {day(P.retrieved_at)}: {usd(Y(2026).standard.single)} for the 2026 single standard deduction comes from Rev. Proc. 2025-32 section 4.14, the {usd(Y(2026).salt.cap)} SALT cap from section 70120 of the statute, the {usd(Y(2026).retirement.k401)} 401(k) limit from Notice 2025-67. Automated tests recompute the IRS tables before each release. The <a href={route('method', lang)}>method page</a> explains each formula and lists what the calculators leave out, and the <a href={route('editorial', lang)}>editorial policy</a> says when pages are reviewed: when the IRS publishes the next year's adjustments, when a law or a form changes, and at least once a year.</p>
+    <h2>Report an error</h2>
+    <p>If a figure on a page does not match the IRS document cited under it, write through the <a href={route('contact', lang)}>contact page</a> with the address of the page and the line of the document. Corrections are published with their date. Please never send a Social Security number, a return or an IRS notice: the questioned figure is enough.</p>
+  </div>
+</PageLayout>

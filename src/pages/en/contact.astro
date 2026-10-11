@@ -1,0 +1,22 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+import { CONTACT_EMAIL, SITE_NAMES } from '../../data/site-config';
+const lang = 'en';
+const title = `Contact ${SITE_NAMES[lang]}: report a figure or embed a calculator`;
+const description = 'Report a federal tax figure that does not match its IRS source, ask about embedding a calculator, or reach the publisher. No individual tax advice is given.';
+const path = route('contact', lang);
+---
+<PageLayout title={title} description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. We read every message about the figures and answer within a week.</p>
+    <h2>A figure looks wrong</h2>
+    <p>Send the address of the page, the figure, and the IRS document or line of a form you compared it with. If we confirm the error, the page and the parameter file are corrected and the date of the correction is shown.</p>
+    <h2>Your own return</h2>
+    <p>We cannot review a return or give individual tax advice. For a notice or a refund that is late, the IRS tools (Where's My Refund, your online account) and an enrolled agent or CPA are the right places. Do not send a Social Security number, a return or a notice by email.</p>
+    <h2>Embedding a calculator</h2>
+    <p>The bracket calculator and the tips and overtime calculator can be embedded for free: code and conditions on the <a href={route('widget', lang)}>embed page</a>.</p>
+  </div>
+</PageLayout>

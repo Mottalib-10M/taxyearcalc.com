@@ -1,0 +1,22 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Calc from '../../components/calc/Calc';
+import { route } from '../../i18n/routes';
+import { SITE_URL, SITE_NAMES } from '../../data/site-config';
+const lang = 'en';
+const code = (p: string, h: number) => `<iframe src="${SITE_URL}/embed/${p}/" width="100%" height="${h}" style="border:0" title="${SITE_NAMES[lang]}" loading="lazy"></iframe>`;
+---
+<PageLayout title={`Embed the 2026 tax bracket calculator on your site, free`} description="Free iframe code for the 2026 federal tax bracket calculator and the no tax on tips and overtime calculator, with the conditions of use and a live preview." lang={lang} noindex={true} breadcrumbs={[{ label: 'Embed a calculator' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Embed a calculator</h1>
+    <p>Payroll firms, unions, restaurant groups and newsrooms can show these calculators on their own pages, free, with the credit link visible under the frame. The figures update on our side when the IRS publishes new amounts.</p>
+    <h2>2026 tax bracket calculator</h2>
+    <pre><code>{code('tax-brackets', 640)}</code></pre>
+    <h2>No tax on tips and overtime</h2>
+    <pre><code>{code('schedule-1-a', 700)}</code></pre>
+    <h2>Conditions</h2>
+    <ul><li>Keep the credit link under the frame.</li><li>Do not present the calculator as your own or as an official IRS tool.</li><li>Questions: <a href={route('contact', lang)}>contact page</a>.</li></ul>
+    <h2>Preview</h2>
+  </div>
+  <Calc client:load kind="brackets" idPrefix="wdg" />
+</PageLayout>

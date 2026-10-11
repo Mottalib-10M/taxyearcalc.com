@@ -1,0 +1,47 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+import { P, Y, S, usd, usdx, day } from '../../lib/kit';
+import { table, ext, SOURCES } from '../../lib/helpers';
+const lang = 'en';
+const title = 'Federal Tax Calculator Method 2026: Formulas and Sources';
+const description = 'How the 2026 and 2025 federal tax calculators apply Rev. Proc. 2025-32, Schedule 1-A and Public Law 119-21: formulas, IRS sources, tests and the rules left out.';
+const path = route('method', lang);
+const srcRows = Object.entries(SOURCES).map(([, s]) => [s.label, ext(s.url, new URL(s.url).hostname.replace(/^www\./, ''))]);
+const y6 = Y(2026);
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'How we calculate', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How we calculate', path }])]} breadcrumbs={[{ label: 'How we calculate' }]}>
+  <header class="mb-6"><h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">How the calculators work</h1>
+  <p class="mt-3 text-lg text-navy-700">One parameter file copied from the IRS documents, one set of small functions that follow the lines of the IRS forms, and tests that recompute the IRS tables before every release.</p></header>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>Where the numbers come from</h2>
+    <p>Every amount sits in <code>params-2026.json</code>, grouped by tax year, with the key of the document it comes from. For 2026 that is Rev. Proc. 2025-32 (October 9, 2025), Notice 2025-67 for retirement plans and Rev. Proc. 2025-19 for HSAs. For 2025 it is Rev. Proc. 2024-40, except where Public Law 119-21 changed a figure after the fact: the standard deduction, the child tax credit, the SALT cap and the four Schedule 1-A deductions, which Rev. Proc. 2025-32 section 3 confirms. Rates the Code fixes without indexing (Social Security {S.fica.socialSecurity}%, Medicare {S.fica.medicare}%, the {S.niit.rate}% net investment income tax, the 40% estate rate) are quoted from the IRS page that states them. The file was last compared with its sources on {day(P.retrieved_at)}.</p>
+    <p>When two official documents disagree, the more specific and more recent one wins. The 2026 Form 1040-ES repeats the 2025 SALT cap of {usd(Y(2025).salt.cap)} in its reminders, while section 70120 of Public Law 119-21 sets {usd(y6.salt.cap)} and a {usd(y6.salt.threshold)} threshold for taxable years beginning in 2026; the calculators use the statute.</p>
+    <h2>Brackets and tax</h2>
+    <p>Income tax is computed with the rate schedules, bracket by bracket. The IRS tax table that most people use below {usd(100000)} of taxable income works in $50 bands and taxes the middle of each band, so a return can differ from these results by a few dollars. A test rebuilds each schedule's "plus" amounts and checks that the tax at the start of the 37% bracket equals the printed figure to the cent for all four filing statuses and both years (for example {usdx(y6.bracketCheck.single)} single and {usdx(y6.bracketCheck.mfj)} joint in 2026). Long-term gains are stacked on top of ordinary taxable income and taxed through the 0%, 15% and 20% thresholds.</p>
+    <h2>Schedule 1-A deductions</h2>
+    <p>The four new deductions follow the 2025 Schedule 1-A line by line. Tips (lines 7 to 13) and overtime (lines 15 to 21): the smaller of the amount and the cap, minus $100 for each whole $1,000 of modified AGI above {usd(y6.tips.phaseStart.single)} ({usd(y6.tips.phaseStart.mfj)} joint), the division rounded down. Car loan interest (lines 24 to 30): $200 for each $1,000 above {usd(y6.carLoan.phaseStart.single)} ({usd(y6.carLoan.phaseStart.mfj)} joint), the division rounded up. Seniors (lines 31 to 37): {usd(y6.senior.amount)} minus {y6.senior.rate}% of modified AGI above {usd(y6.senior.phaseStart.single)} ({usd(y6.senior.phaseStart.mfj)} joint), per person aged 65 or older. Married filing separately gets none of them. The qualified overtime premium is computed as in the examples of Notice 2025-69: one third of total overtime pay at time and a half, one quarter at double time.</p>
+    <h2>Other rules</h2>
+    <ul>
+      <li>SALT: the State and Local Tax Deduction Worksheet of the Schedule A instructions, the cap reduced by 30% of modified AGI above the threshold, never below $10,000, halved when married filing separately.</li>
+      <li>Child tax credit: Schedule 8812, the credit reduced by 5% of each $1,000 or fraction of AGI above $200,000 ($400,000 joint); the refundable part is 15% of earned income above $2,500, up to {usd(y6.ctc.refundable)} per child. The alternative computation for three or more children based on Social Security tax is not modeled.</li>
+      <li>Earned income credit: the section 32 phase-in and phase-out between the amounts of the revenue procedure; the IRS table rounds to $50 bands.</li>
+      <li>Roth IRA and IRA deduction: the IRS worksheets, reduced amounts rounded up to the next $10 with a $200 minimum.</li>
+      <li>Refund dates: about 21 days after an accepted e-file, six weeks or more for a paper return (IRS refunds page), no refund with the EITC or ACTC before February 15, and March 2, 2026 for those refunds in the 2026 season. Dates for the 2027 season are projections until the IRS announces them.</li>
+      <li>Penalties: 5% a month for filing late (25% maximum, minus the failure-to-pay part of the same month, minimum {usd(y6.ftfMinimum)} for returns due in 2027 more than 60 days late), 0.5% a month for paying late; interest compounded daily at the quarterly rate.</li>
+    </ul>
+    <h2>Tests</h2>
+    <p>More than one hundred automated tests run before each release: the rate schedules against the printed amounts, the Schedule 1-A arithmetic at and around each threshold, the IRS examples of Notice 2025-69, the SALT worksheet, the EITC maximums and complete phase-out amounts, the 2026 dependent care rate steps of section 21 as amended, and every calculator on its default, zero and maximum inputs, which must return a figure, never an empty result.</p>
+    <h2>What the calculators leave out</h2>
+    <ul>
+      <li>State and local income taxes, which follow each state's own law (some states do not copy the federal tips and overtime deductions).</li>
+      <li>Self-employment tax, the alternative minimum tax and education credits inside the refund estimator; the AMT and FICA have their own calculators.</li>
+      <li>The QBI deduction above its income threshold, where W-2 wage and property limits apply.</li>
+      <li>Any 2027 figure: the IRS had not published the 2027 adjustments on {day(P.retrieved_at)}.</li>
+    </ul>
+    <h2>Every source</h2>
+    <Fragment set:html={table(['Document', 'Site'], srcRows, `Read on ${day(P.retrieved_at)}; copies are kept with the code.`, ['l', 'l'])} />
+    <p>Found a figure that does not match the IRS document? <a href={route('contact', lang)}>Tell us</a>; see also the <a href={route('editorial', lang)}>editorial policy</a>.</p>
+  </div>
+</PageLayout>

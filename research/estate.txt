@@ -1,0 +1,122 @@
+ 
+ Working Families Tax Cuts
+ The Working Families Tax Cuts Bill (WFTC) was signed into law on July 4, 2025 as Public Law 119-21. WFTC amends § 2010(c)(3) by increasing the basic exclusion amount to $15,000,000 for calendar year 2026.
+ Modernized e-File (MeF) for gift taxes now offers a secure and accurate way to file Form 709, United States Gift (and Generation-Skipping Transfer) Tax Return and Form 709-NA, United States Gift (and Generation-Skipping Transfer) Tax Return of Nonresident Not a Citizen of the United States
+ Modernized e-File (MeF) for Form 709, United States Gift (and Generation-Skipping Transfer) Tax Return and Form 709-NA, United States Gift (and Generation-Skipping Transfer) Tax Return of Nonresident Not a Citizen of the United States and Instructions for Form 709-NA , is now part of IRS e-file. New Modernized e-File (MeF) schema and business rules for Form 709 and Form 709-NA are now available for tax year 2024/processing year 2025. Additional information is available on the Modernized e-File (MeF) for gift taxes page.
+ Form 709-NA, United States Gift (and Generation-Skipping Transfer) Tax Return of Nonresident Not a Citizen of the United States and Instructions for Form 709-NA, United States Gift (and Generation Skipping Transfer) Tax Return of nonresident not a citizen of the United States are now available
+ Form 709-NA, United States Gift (and Generation-Skipping Transfer) Tax Return of Nonresident Not a Citizen of the United States PDF and Instructions for Form 709-NA, United State Gift (and Generation Skipping Transfer) Tax Return of nonresident not a citizen of the United States PDF are now available. The purpose of the 709-NA is to used report certain transfers by nonresidents not citizens of the United States that are subject to the federal gift and certain generation-skipping transfer (GST) taxes and to figure the tax due on those transfers. For more information, see Gift tax and Filing estate and gift tax returns .
+ Final regulations under Section 2801, Regarding the Imposition of Tax on Certain Gifts and Bequests from Covered Expatriates published
+ Section 301 of the Heroes Earning Assistance and Relief Tax Act of 2008, Pub. L. 110-245 (122 Stat. 1624) (the HEART Act) added Chapter 15 (Gifts and Bequests from Expatriates) to subtitle B, effective June 17, 2008. Chapter 15 consists solely of section 2801 and imposes a tax (the section 2801 tax) on certain transfers of property by gift or bequest (covered gifts and covered bequests) from certain individuals who expatriate on or after June 17, 2008 (covered expatriates). The final regulations, Guidance under Section 2801 Regarding the Imposition of Tax on Certain Gifts and Bequests from Covered Expatriates , apply to covered gifts and covered bequests received on or after January 1, 2025. Form 708, United States Return of Tax for Gifts and Bequests Received from Covered Expatriates PDF and the Instructions to the Form 708 United States Return of Tax for Gifts and Bequests Received from Covered Expatriates PDF are now available.
+ Tax relief for estate and gift taxpayers impacted by wildfires in Los Angeles County, California
+ The Internal Revenue Service announced relief for individuals and businesses in Los Angeles County affected by wildfires that began on Jan. 7, 2025. These taxpayers now have until Oct. 15, 2025, to file returns and make tax payments. Review the relief information at IRS announces tax relief for taxpayers impacted by wildfires in California; various deadlines postponed to Oct. 15 .
+ Updated user fee for Estate Tax Closing Letter
+ Treasury Decision 10031 reduced the user fee for persons requesting the issuance of IRS Letter 627, Estate Tax Closing Letter (ETCL) from $67 to $56, effective May 21, 2025. For more information see Frequently asked questions on the estate tax closing letter .
+ E-signatures for estate and gift tax forms extended indefinitely
+ For more information, go to Details on using e-signatures for certain forms .
+ Mailing address changes for estate and gift tax returns
+ See Filing estate and gift tax returns for information on new mailing addresses for Form 709, and the Form 706 series (706, 706-NA, 706-GS(D), 706-GS(T), 706 Schedule R-1, 706-A, and 706-QDT), as well as Forms 8892 and 8855.
+ Transcript Delivery Service (TDS) now available for estate tax accounts
+ The Transcript Delivery Service (TDS) which provides authorized practitioners the ability to view and print instant account transcripts for estate tax returns is now available on IRS.gov.
+ To register for TDS, see Transcript Delivery Service .
+ For step-by-step instructions on securing an estate tax transcript, see Transcripts in lieu of estate tax closing letters .
+ Consistent basis reporting between estate and person acquiring property from decedent
+ On Monday, Sept. 16, 2024, the IRS issued final regulations ( TC 9991 ) on consistent basis reporting between an estate and a person acquiring property from a decedent.
+ The final regulations provide guidance regarding the requirement that a recipient’s basis in certain property acquired from a decedent be consistent with the value of the property as finally determined for Federal estate tax purposes. This consistent basis reporting is required by H.R. 3236, the Surface Transportation and Veterans Health Care Choice Improvement Act of 2015, which was signed into law on July 31, 2015.
+ The law created Section 6035, which requires the executor of an estate required to file an estate tax return to also provide statements to the IRS and to beneficiaries acquiring certain property from a decedent. This requirement also applies to 6018(b) filers.
+ Note: If the estate is not required to file an estate tax return ( see Which Estates Must File in the Instructions for Form 706 PDF , and Who Must File in the Instructions for Form 8971 PDF , please do not file Form 8971. Doing so may result in unnecessary correspondence from the IRS.
+ The law also added Section 1014(f), which requires consistent basis reporting between an estate and the beneficiary acquiring certain property from a decedent.
+ These changes apply to any estate tax return filed, and to property with respect to which an estate tax return is filed, after July 31, 2015.
+ Note: The Form 8971 and Instructions for Form 8971 are being updated based on the final regulations. Until the updated form is available, continue to use the current Form 8971 .
+ How do I know which estate tax return to file? Form 706 or Form 706-NA?
+ See the new FAQ, How do I know which estate tax return to file? Form 706 or Form 706-NA? 
+ Form 706 changes
+ The basic exclusion amount for the year of death is as follows:
+ Basic exclusion amount for year of death
+ Year of death
+ Basic exclusion amount
+ 2011
+ $5,000,000
+ 2012
+ $5,120,000
+ 2013
+ $5,250,000
+ 2014
+ $5,340,000
+ 2015
+ $5,430,000
+ 2016
+ $5,450,000
+ 2017
+ $5,490,000
+ 2018
+ $11,180,000
+ 2019
+ $11,400,000
+ 2020
+ $11,580,000
+ 2021
+ $11,700,000
+ 2022
+ $12,060,000
+ 2023
+ $12,920,000
+ 2024
+ $13,610,000
+ 2025
+ $13,990,000
+ 2026
+ $15,000,000
+ For estate tax returns after 12/31/1976, Line 4 of Form 706, United States Estate (and Generation-Skipping Transfer) Tax Return PDF , lists the cumulative amount of adjusted taxable gifts within the meaning of IRC section 2503. The computation of gift tax payable (Line 7 of Form 706) uses the IRC section 2001(c) rate schedule in effect as of the date of the decedent's death, rather than the actual amount of gift taxes paid with respect to the gifts.
+ With the top bracket tax rates decreasing from 55 percent (in 2001) to 35 percent (in 2010), and then increasing to 40 percent (in 2013), the IRS has encountered situations where gift taxes paid were greater than the tax calculated using the rate in effect at the date of death.
+ It appears that some Form 706 software used by practitioners require a manual input of the gift tax payable line. Some preparers are reporting gift taxes actually paid rather than calculating the gift tax payable under date of death rates. These errors result in underpayment of estate tax due. Cases with this issue will involve estates where large gifts were made during life and at a time when tax rates were higher than at date of death. (Posted 6-5-06)
+ Beginning Jan. 1, 2011, estates of decedents survived by a spouse may elect to pass any of the decedent's unused exclusion to the surviving spouse. This election is made on a timely filed estate tax return for the decedent with a surviving spouse. Note that simplified valuation provisions apply for those estates without a filing requirement absent the portability election. See the Instructions to Form 706 for additional information.
+ Annual exclusions
+ The annual exclusion amount for the year of gift is as follows:
+ Annual exclusion per donee for year of gift
+ Year of gift
+ Annual exclusion per donee
+ 2011 through 2012
+ $13,000
+ 2013 through 2017
+ $14,000
+ 2018 through 2021
+ $15,000
+ 2022
+ $16,000
+ 2023
+ $17,000
+ 2024
+ $18,000
+ 2025
+ $19,000
+ 2026
+ $19,000
+ For basic exclusion amounts, see the table above, in Form 706 changes .
+ Federal transfer certificates (international)
+ For more information about securing a transfer certificate, please see:
+ Transfer certificate filing requirements for the estates of nonresident citizens of the United States 
+ Transfer certificate filing requirements for the estates of nonresidents not citizens of the United States 
+ Related
+ Estate and gift taxes 
+ Estate tax 
+ Frequently asked questions on estate taxes 
+ Information for executors 
+ Gift tax 
+ Frequently asked questions on gift taxes 
+ Filing estate and gift tax returns 
+ Modernized e-File (MeF) for gift taxes 
+ Transcripts in lieu of estate tax closing letters 
+ Frequently asked questions on the Estate Tax Closing Letter 
+ Penalties 
+ What's new — Estate and gift tax 
+ Related international topics
+ Estate tax for nonresidents not citizens of the United States 
+ Frequently asked questions on estate taxes for nonresidents not citizens of the United States 
+ Transfer certificate filing requirements for the estates of nonresidents not citizens of the United States 
+ Transfer certificate filing requirements for the estates of nonresident citizens of the United States 
+ Gift tax for nonresidents not citizens of the United States 
+ Estate & gift tax treaties (international) 
+ Publications
+ Forms and publications: Estate and gift tax 
+ About Publication 559, Survivors, Executors and Administrators 
+ 

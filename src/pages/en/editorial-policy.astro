@@ -1,0 +1,17 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { P, day } from '../../lib/kit';
+import { SITE_NAMES } from '../../data/site-config';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: sources, reviews, fixes`} description="How every federal tax figure is sourced from IRS revenue procedures, notices, forms and the statute, when pages are reviewed and how a correction is made and dated." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial policy</h1>
+    <h2>Sources</h2><p>Only primary documents: IRS revenue procedures, notices, forms and instructions, IRS pages, and the text of the Internal Revenue Code as amended (Public Law 119-21 for 2025 onward). News articles, blogs and other calculators are never a source of a figure. Each page names its documents; the full list is on the <a href={route('method', lang)}>method page</a>.</p>
+    <h2>No figure typed by hand</h2><p>Amounts live in one parameter file and pages read them from it, so a corrected amount changes on every page at once. A figure we could not confirm in an official document is not published.</p>
+    <h2>Reviews</h2><p>Pages are reviewed when the IRS publishes the next year's inflation adjustments (usually October or November), when a new law or a revised form changes a rule, and at least once a year. Last full review: {day(P.retrieved_at)}.</p>
+    <h2>Corrections</h2><p>A reported error is checked against the document within a week; if confirmed, the fix is published with its date. Write through the <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Independence</h2><p>No preparer, software company or lender pays for a mention, and no page recommends one.</p>
+  </div>
+</PageLayout>

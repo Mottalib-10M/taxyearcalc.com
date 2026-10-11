@@ -1,0 +1,32 @@
+ 
+ IR-2025-114, Nov. 21, 2025
+ WASHINGTON — The Department of the Treasury and the Internal Revenue Service today issued guidance for workers eligible to claim the deduction for tips and for overtime compensation for tax year 2025.
+ Notice 2025-69 PDF clarifies for workers how to determine the amount of their deduction without receiving a separate accounting from their employer for cash tips or qualified overtime on information returns such as Form W-2 or Form 1099, as those forms remain unchanged for the current tax year. It also provides transition relief to workers who receive tips in the course of a specified service trade or business.
+ The IRS is in the process of updating income tax forms and instructions for taxpayers to use this filing season that will assist them in claiming these deductions.
+ No Tax on Tips
+ Under the One, Big, Beautiful Bill, workers may be eligible for new deductions for tax years 2025 through 2028 if they received qualified tips. For tipped workers, the maximum annual deduction is $25,000, which phases out for taxpayers with modified adjusted gross income over $150,000 ($300,000 for joint filers).
+ It is estimated that there are about 6 million workers who report tipped wages.
+ Examples of how the rules work for tipped employees
+ Today’s guidance provides examples to illustrate various situations tipped employees might encounter; below are abridged versions of some of those examples.
+ Waiter with reported tips in box 7, Form W-2
+ Ann is a restaurant server whose 2025 Form W-2, box 7 reports $18,000 of social security tips. Ann did not report any additional tips on Form 4137. Ann may use $18,000 in determining the amount of her qualified tips for tax year 2025.
+ Bartender with additional reported tips on Form 4137
+ Bob is a bartender who reports $20,000 in tips to his employer during the 2025 tax year on Forms 4070 and reports $4,000 of unreported tips on Form 4137, line 4. Bob’s 2025 Form W-2 reports $200,000 in box 1 and $15,000 in box 7. Bob may use either the $15,000 in box 7 of the Form W-2, or the $20,000 of tips reported to Bob’s employer on Forms 4070 in determining the amount of qualified tips for tax year 2025. Regardless of the option chosen, Bob may also include the $4,000 of unreported tips from Form 4137, line 4 in determining the amount of qualified tips.
+ Self-employed travel guide
+ Doug is a self-employed travel guide who operates as a sole proprietor. In 2025, Doug receives $7,000 in tips from customers paid through a third-party settlement organization (TPSO). For tax year 2025, Doug receives a Form 1099-K from the TPSO showing $55,000 of total payments. The Form 1099-K does not separately identify the tips. However, Doug keeps a log of each tour that shows the date, customer, and tip amount received. Because Doug has daily tip logs substantiating the $7,000 tip amount, he may use the $7,000 tip amount in determining qualified tips for tax year 2025.
+ No Tax on Overtime
+ For tax years 2025 through 2028, individuals who receive qualified overtime compensation may deduct the pay that exceeds their regular rate of pay (generally, the “half” portion of “time-and-a-half” compensation) that is required by the Fair Labor Standards Act and reported on a Form W-2, Form 1099, or other specified statement furnished to the individual.
+ Maximum annual deduction is $12,500 ($25,000 for joint filers).
+ Deduction phases out for taxpayers with modified adjusted gross income over $150,000 ($300,000 for joint filers).
+ The deduction is available for both itemizing and non-itemizing taxpayers.
+ Certain employees are exempt from the rules on overtime
+ Generally, the FLSA requires that most employees in the United States be paid at least the federal minimum wage for all hours worked and overtime pay at not less than time and one-half their regular rate of pay for all hours worked over 40 in a workweek. However, the law provides for certain exemptions.
+ Today’s guidance provides a series of examples illustrating situations that workers who receive qualified overtime might encounter. Today’s guidance does not affect any rights or responsibilities regarding tips or overtime compensation under the FLSA. Below are abridged versions of some of those examples.
+ Overtime examples
+ Andrew works overtime during 2025, and he receives a payroll statement from his employer that shows $5,000 as the “overtime premium” that he was paid during 2025. Andrew may include $5,000 (the FLSA overtime premium) to determine the amount of qualified overtime compensation received in tax year 2025.
+ Assume the same facts as in the first example except that Andrew’s payroll statement shows a total “overtime” amount of $15,000, which is the total amount Andrew was paid for working overtime (the FLSA overtime premium combined with the portion of his regular wages). Andrew may include the $5,000 FLSA overtime premium, computed by dividing $15,000 by 3 in determining the amount of qualified overtime compensation for 2025.
+ Brad’s employer has a practice of paying overtime at a rate of two times an employee’s regular rate of pay, and Brad was paid $20,000 in overtime pay during 2025. Brad’s last pay stub for 2025 shows “overtime” of $20,000 paid in 2025. For purposes of determining the amount of qualified overtime compensation received in tax year 2025, Brad may include $5,000 ($20,000 divided by 4).
+ Carol is a covered, nonexempt employee under the FLSA and works in law enforcement and is paid $15,000 of overtime pay on a “work period” basis of 14 days that complies with the FLSA. See Fact Sheet #8: Law Enforcement and Fire Protection Employees Under the Fair Labor Standards Act (FLSA) | U.S. Department of Labor . For purposes of determining the amount of qualified overtime compensation received in tax year 2025, Carol may include $5,000 ($15,000 divided by 3).
+ Diane works for a State or local government agency that gives compensatory time at a rate of one and one-half hours for each overtime hour worked. In 2025, Diane was paid wages of $4,500 for compensatory time off based on that overtime. To determine the amount of qualified overtime compensation received in tax year 2025, Diane may include $1,500, one-third of these wages, for purposes of determining the qualified overtime compensation deduction.
+ Today’s guidance provides additional examples for workers who receive overtime. The IRS will continue to update taxpayers about tax benefits from the One, Big, Beautiful Bill on IRS.gov.
+ 

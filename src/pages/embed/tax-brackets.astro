@@ -1,0 +1,9 @@
+---
+/** Bare calculator for an iframe: no navigation, no author box, credit link visible (RECETTE §13). noindex, out of the sitemap. */
+import '../../styles/global.css';
+import Calc from '../../components/calc/Calc';
+import { SITE_URL, SITE_NAMES } from '../../data/site-config';
+---
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>Federal tax bracket calculator 2026</title><link rel="canonical" href={`${SITE_URL}/en/tax-brackets/`} /></head>
+<body class="bg-white p-2"><main><Calc client:load kind="brackets" idPrefix="emb" /><p class="mt-2 text-xs text-navy-600">Federal tax bracket calculator 2026 by <a href={`${SITE_URL}/en/tax-brackets/`} target="_blank" rel="noopener" class="underline">{SITE_NAMES.en}</a>, figures from IRS documents.</p></main></body></html>
