@@ -8,7 +8,8 @@ const link = (id: string, lang: Locale): NavLink => ({ href: route(id, lang), la
 export function navCategories(lang: Locale): NavCategory[] {
   return GROUPS.map((g) => ({ label: g.short, links: PAGES.filter((p) => p.group === g.id).map((p) => link(p.id, lang)) })).filter((c) => c.links.length);
 }
-export const navDirect = (lang: Locale): NavLink[] => [link('method', lang)];
+// Methode : liee en bas de page, hors du menu du haut pour qu'il tienne sur une ligne.
+export const navDirect = (_lang: Locale): NavLink[] => [];
 export const footerColumns = (lang: Locale): NavCategory[] => [
   ...GROUPS.map((g) => ({ label: g.label, links: PAGES.filter((p) => p.group === g.id).map((p) => link(p.id, lang)) })).filter((c) => c.links.length),
   { label: 'This site', links: ['home', 'method', 'about', 'contact', 'editorial', 'widget', 'terms', 'privacy', 'cookies'].map((i) => link(i, lang)) },
